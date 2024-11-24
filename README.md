@@ -64,10 +64,10 @@ pip install -r requirements.txt
 - Consulta el archivo report.pdf en la carpeta document/ para un resumen detallado.
 
 ### Características principales
-Web Scraping: Obtención de datos desde una fuente pública usando Python.
-Limpieza de Datos: Filtrado y preprocesamiento de datos para su análisis.
-Modelado Predictivo: Incluye regresión simple y polinómica para predecir ingresos.
-Visualización: Gráficos informativos para apoyar la interpretación de los datos.
+- Web Scraping: Obtención de datos desde una fuente pública usando Python.
+- Limpieza de Datos: Filtrado y preprocesamiento de datos para su análisis.
+- Modelado Predictivo: Incluye regresión simple y polinómica para predecir ingresos.
+- Visualización: Gráficos informativos para apoyar la interpretación de los datos.
 
 ### Requisitos
 - Python 3.8 o superior
