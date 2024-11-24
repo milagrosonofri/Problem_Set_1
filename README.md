@@ -14,7 +14,8 @@ Problem_Set_1/
 │   └── dataframe.csv      # Conjunto de datos crudos obtenidos del web scraping
 ├── views/
 │   └── *.png              # Gráficos con estadísticas descriptivas, resultados de modelos y errores de predicción
-
+├── README.md
+└── requirements.txt
 ```
 
 ## 1. document
@@ -23,24 +24,24 @@ Consulta este archivo para obtener un resumen completo del proyecto sin necesida
 
 ## 2. scripts
 PS1.ipynb: Un notebook de Jupyter que incluye:
-Scraping de datos desde múltiples páginas web utilizando las librerías requests y BeautifulSoup.
-Limpieza y filtrado de datos: Restricción a individuos empleados mayores de 18 años y preparación de variable de interés.
-Análisis exploratorio de datos con estadísticas descriptivas y distribuciones de variables.
-Construcción y evaluación de modelos predictivos, como regresión lineal y polinómica, para predecir el salario horario de los asalariados en Colombia. 
-Comparación de los RSME asociados a cada modelo.
-Generación de gráficos para analizar los errores de predicción de los modelos con menor RSME.
-Leave-One-Out-Cross-Validation (LOOCV) para evaluar la capacidad predictiva de los modelos con mejor RMSE.
+- Scraping de datos desde múltiples páginas web utilizando las librerías requests y BeautifulSoup.
+- Limpieza y filtrado de datos: Restricción a individuos empleados mayores de 18 años y preparación de variable de interés.
+- Análisis exploratorio de datos con estadísticas descriptivas y distribuciones de variables.
+- Construcción y evaluación de modelos predictivos, como regresión lineal y polinómica, para predecir el salario horario de los asalariados en Colombia. 
+- Comparación de los RSME asociados a cada modelo.
+- Generación de gráficos para analizar los errores de predicción de los modelos con menor RSME.
+- Leave-One-Out-Cross-Validation (LOOCV) para evaluar la capacidad predictiva de los modelos con mejor RMSE.
 
 ## 3. stores
 Contiene el conjunto de datos (dataframe.csv), generado tras el scraping.
 
 ## 4. views
 Almacena visualizaciones generadas durante el análisis, que incluyen:
-Histogramas de las variables clave.
-Scatterplots y matriz de correlación para analizar la relación entre las variables independientes y la dependiente.
-Errores de predicción para diferentes modelos.
+- Histogramas de las variables clave.
+- Scatterplots y matriz de correlación para analizar la relación entre las variables independientes y la dependiente.
+- Errores de predicción para diferentes modelos.
 
-## Cómo Usar Este Repositorio
+## Cómo usar este repositorio
 ### Instalar Dependencias
 
 Este proyecto utiliza Python y varias bibliotecas. Instala las dependencias necesarias con:
@@ -49,27 +50,27 @@ Este proyecto utiliza Python y varias bibliotecas. Instala las dependencias nece
 pip install -r requirements.txt
 ```
 
-### Ejecutar el Script
+### Ejecutar el script
 
-Abre el archivo PS1.ipynb en Jupyter Notebook, Jupyter Lab o Google Colab.
-Ejecuta las celdas en orden para reproducir los resultados:
-Realizar el scraping y limpieza de datos.
-Generar estadísticas descriptivas y visualizaciones.
-Entrenar modelos predictivos y evaluar su desempeño.
+- Abre el archivo PS1.ipynb en Jupyter Notebook, Jupyter Lab o Google Colab.
+-  Ejecuta las celdas en orden para reproducir los resultados:
+- Realizar el scraping y limpieza de datos.
+- Generar estadísticas descriptivas y visualizaciones.
+- Entrenar modelos predictivos y evaluar su desempeño.
 
 ### Explorar los resultados
 
-Revisa las visualizaciones en la carpeta views/ para obtener información clave.
-Consulta el archivo report.pdf en la carpeta document/ para un resumen detallado.
+- Revisa las visualizaciones en la carpeta views/ para obtener información clave.
+- Consulta el archivo report.pdf en la carpeta document/ para un resumen detallado.
 
-### Características Principales
+### Características principales
 Web Scraping: Obtención de datos desde una fuente pública usando Python.
 Limpieza de Datos: Filtrado y preprocesamiento de datos para su análisis.
 Modelado Predictivo: Incluye regresión simple y polinómica para predecir ingresos.
 Visualización: Gráficos informativos para apoyar la interpretación de los datos.
 
 ### Requisitos
-Python 3.8 o superior
-Bibliotecas principales:
+- Python 3.8 o superior
+- Bibliotecas principales:
 requests, BeautifulSoup, pandas, numpy
 seaborn, matplotlib, scikit-learn
