@@ -32,6 +32,8 @@ PS1.ipynb: Un notebook de Jupyter que incluye:
 - Generación de gráficos para analizar los errores de predicción de los modelos con menor RSME.
 - Leave-One-Out-Cross-Validation (LOOCV) para evaluar la capacidad predictiva de los modelos con mejor RMSE.
 
+PS1_graficos.ipynb: Un notebook de Jupyter que incluye los mismos procedimientos que PS1.ipynb pero además exporta el dataframe a stores y los gráficos ejecutados a views. 
+
 ## 3. stores
 Contiene el conjunto de datos (dataframe.csv), generado tras el scraping.
 
